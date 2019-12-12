@@ -1,1 +1,84 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  /*border: 1px solid blue;*/
+}
+body {
+  background-color: black;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  /*this closes the anchor tag*/
+}
+nav a {
+  margin-left: 3%;
+  margin-top: 3%;
+}
+/*this closes the nav tag*/
+h1,
+h3 {
+  font-family: 'Yeon Sung', cursive;
+}
+p {
+  font-family: 'Fredericka the Great', cursive;
+}
+.container {
+  margin: 2%;
+  background-color: lightgray;
+}
+.image {
+  width: 30vw;
+  margin: 5%;
+}
+.intro {
+  margin: 5%;
+}
+.build {
+  margin-top: 2%;
+}
+.bio {
+  margin: 5%;
+}
+.more_info {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.skills {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.tech {
+  margin-top: 2%;
+}
+.lorem {
+  margin-top: 2%;
+}
+.clients {
+  display: flex;
+  justify-content: space-between;
+}
+div.clients img {
+  width: 20%;
+}
+.logos {
+  margin-bottom: 2%;
+}
+footer {
+  text-align: center;
+}
+@media (max-width: 500px) {
+  .clients {
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+    background-color: greenyellow;
+  }
+}
