@@ -1,19 +1,90 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>My Resume</title>
+    <title>My Resume</title>
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css" />
+   <!-- <link rel="stylesheet" href="css/iStyles.css"> This file re-factored in index.less -->
 
-  <link rel="stylesheet" href="css/index.css">
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+  </head>
 
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
-</head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="nav_links">
+          <nav>
+            <a href="#">Portfolio</a>
+            <a href="#">Client Reviews</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+          </nav>
+        </div>
 
-<body>
-  <h1>My Resume</h1>
-</body>
+        <div class="image">
+          <img
+            src="images/main_img.jpg"
+            alt="An image of web developer Ike Otu"
+          />
+        </div>
+
+        <div class="intro">
+          <h1>Ike Otu-Web Developer</h1>
+          <p class="build">Let's build something amazing!</p>
+        </div>
+      </header>
+
+      <div class="bio">
+        <p>
+          I enjoy developing quality sites and applications that will enhance
+          your user experience.
+        </p>
+      </div>
+
+      <div class="more_info">
+        <div>
+          <h3>Listen Up...</h3>
+          <p class="lorem">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi
+            neque ea omnis, provident, dolore voluptas aperiam optio dolorum
+            praesentium quibusdam excepturi numquam laborum! Quos, delectus quod
+            rerum excepturi quibusdam consequuntur?
+          </p>
+        </div>
+
+        <div class="skills">
+          <h3>Skilled Technologies</h3>
+          <p class="tech">
+            Adept at both front-end and back-end technologies such as HTML5,
+            CSS3, JavaScript, Python, NodeJS, React, and Less.
+          </p>
+        </div>
+      </div>
+
+      <h3 class="logos">Current clients</h3>
+      <div class="clients">
+        <img src="images/mcDonalds.jpg" alt="The McDonald's company logo" />
+        <img src="images/slack.jpg" alt="The Slack company logo" />
+        <img src="images/starbucks.jpg" alt="The Starbucks company logo" />
+      </div>
+
+      <h4>Contact</h4>
+      <br />
+      <P
+        >Ike Otu <br />
+        (123) 456-7890</P
+      >
+      <br />
+      <footer>
+        <p>Copyright 2019 Ike Otu</p>
+      </footer>
+    </div>
+  </body>
 </html>

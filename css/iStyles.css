@@ -1,16 +1,4 @@
-// Is this working?
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-@main_fonts: 'Yeon Sung', cursive;
-@paragraph_font: 'Fredericka the Great', cursive;
-
-.margins() {
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
+/*css reset*/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -23,28 +11,21 @@ body {
     background-color: black;
 }
 
-nav {
-  display: flex;
-  justify-content: flex-end;
-  a {
-	margin-left: 3%;
-    margin-top: 3%;
-  } /*this closes the anchor tag*/
-} /*this closes the nav tag*/
-
-h1, h3 {
-	font-family: @main_fonts;
-}
-
-p {
-	font-family: @paragraph_font;
-}
-
 .container {
     margin: 2%;
     background-color: lightgray;
 }
 
+/*navigation styling*/
+nav {
+    display: flex;
+    justify-content: flex-end; 
+}
+
+nav a {
+    margin-left: 3%;
+    margin-top: 3%;
+}
 
 .image {
     width: 30vw;
@@ -64,7 +45,8 @@ p {
 }
 
 .more_info {
-    .margins();
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .skills {
@@ -95,6 +77,14 @@ div.clients img {
 
 footer {
     text-align: center;
+}
+
+h1, h3{
+    font-family: 'Yeon Sung', cursive;
+}
+
+p {
+    font-family: 'Fredericka the Great', cursive;
 }
 
 @media (max-width: 500px) {
